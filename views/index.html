@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title><%= title %></title>
+</head>
+<body>
+    <div class="content">
+        <div class="main-grid">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <div class="box-sidebar-header">
+                        <button class="btn-search-places">Search Places</button>
+                        <div class="icon">s</div>
+                    </div>
+                </div>
+                <div class="sidebar-icon">
+                    <img src="" alt="icono del clima" id="icon-sidebar" class="icon-sidebar">
+                </div>
+                <div class="sidebar-temperature">
+                    <h1 class="temperature" id="temperature"></h1>
+                    <h2 class="temperature-text" id="temperature-text"></h2>
+                </div>
+                <div class="sidebar-footer">
+                    <p class="day-sidebar" id="day-sidebar">Today</p>
+                    <p class="day-num" id="day-num">  </p>
+                    <p class="ubication" id="ubication"></p>
+                </div>
+            </div>
+            <div class="dashboard">
+                <div class="dash-header">
+                    <div class="options-unity">
+                        <button class="btn-celsius" id="btn-celsius">°C</button>
+                    <button class="btn-fahrenheit" id="btn-fahrenheit">°F</button>
+                </div>
+                        <div class="grid-header">
+                            <div class="card">
+                                <p class="fecha-card" id="fecha-card">Mañana</p>
+                                <img src="" class="icon-card" id="icon-card-uno" alt="">
+                                <div class="temperature-card">
+                                    <p class="min-temp-card" id="card-uno">16°</p>
+                                    <p class="max-temp-card">19°</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <p class="fecha-card" id="fecha-card">Mañana</p>
+                                <img src"" class="icon-card" id="icon-card-dos" alt="">
+                                <div class="temperature-card">
+                                    <p class="min-temp-card" id="card-dos">16°</p>
+                                    <p class="max-temp-card">19°</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <p class="fecha-card" id="fecha-card">Mañana</p>
+                                <img src="" class="icon-card" id="icon-card-tres" alt="">
+                                <div class="temperature-card">
+                                    <p class="min-temp-card" id="card-tres">16°</p>
+                                    <p class="max-temp-card">19°</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <p class="fecha-card" id="fecha-card">Mañana</p>
+                                <img src="" class="icon-card" id="icon-card-cuatro" alt="">
+                                <div class="temperature-card">
+                                    <p class="min-temp-card" id="card-4">16°</p>
+                                    <p class="max-temp-card">19°</p>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <p class="fecha-card" id="fecha-card">Mañana</p>
+                                <img src="" class="icon-card" id="icon-card-cinco" alt="">
+                                <div class="temperature-card">
+                                    <p class="min-temp-card" id="card-5">16°</p>
+                                    <p class="max-temp-card">19°</p>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="dash-body">
+                    <h2 class="title-body">Today´s Highlight</h2>
+                    <div class="grid-body">
+                        <div class="card-body">
+                            <h4 class="title-card-body">Wind Status</h4>
+                            <h3 class="wind-status-data" id="wind-status-data"></h3>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="title-card-body">Humidity</h4>
+                            <h3 class="humidity-data" id="humidity-data"></h3>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="title-card-body">Visibility</h4>
+                            <h3 class="visibility-data" id="visibility-data"></h3>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="title-card-body">Air pressure</h4>
+                            <h3 class="air-pressure-data" id="air-pressure-data"></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
